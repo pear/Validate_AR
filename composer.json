@@ -1,0 +1,36 @@
+{
+    "authors": [
+        {
+            "email": "msaraujo@php.net",
+            "name": "Marcelo Santos Araujo",
+            "role": "Lead"
+        },
+        {
+            "email": "davidc@php.net",
+            "name": "David Coallier",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Validate_AR",
+    "include-path": [
+        "./"
+    ],
+    "license": "New BSD",
+    "name": "pear/validate_ar",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_AR",
+        "source": "https://github.com/pear/Validate_AR"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
